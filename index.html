@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div class="logo">My Portfolio</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Me</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Design Process</a></li>
+<li><a href="#">Skills</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+
+<div class="topbar">
+
+<input type="text" class="search" placeholder="Search portfolio...">
+
+</div>
+
+<section class="hero">
+
+    <img src="port.jpg" class="album-cover">
+
+    <div class="hero-content">
+
+        <p class="album-type">Portfolio</p>
+
+        <h1>Shaili Patel</h1>
+
+        <h3>Frontend Developer • UI Designer • Student</h3>
+
+        <p class="hero-description">
+
+            Write your intro here.
+            Talk about yourself, your goals,
+            the Web Design Pathway Program,
+            and what this portfolio represents.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="play-btn">View Projects</button>
+
+            <button class="save-btn">Contact</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="spotify-nav">
+
+<button class="nav-pill active">All</button>
+<button class="nav-pill">Year 1</button>
+<button class="nav-pill">Year 2</button>
+<button class="nav-pill">Year 3</button>
+<button class="nav-pill">Capstone</button>
+
+</div>
+
+<!-- PROJECTS -->
+
+<div class="section">
+
+<h2>Featured Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
+
+<h3>Project One</h3>
+
+<p>
+Describe your project here.
+Explain the technologies used and why it is important.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop">
+
+<h3>Project Two</h3>
+
+<p>
+Explain your growth from Year 1 to Year 3.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+
+<h3>Capstone Project</h3>
+
+<p>
+Talk about challenges, design process, and features.
+</p>
+</div>
+
+</div>
+</div>
+
+<!-- DESIGN PROCESS -->
+
+<div class="section">
+
+<h2>Design Process</h2>
+
+<div class="about-box">
+
+<p>
+
+• Explain your lo-fi wireframe here.<br><br>
+
+• Explain your hi-fi wireframe here.<br><br>
+
+• Describe how your design evolved.<br><br>
+
+• Talk about your research and what inspired you.<br><br>
+
+• Mention technologies:
+HTML, CSS, JavaScript, JSON, Vue/jQuery, animations, responsiveness, etc.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- AI SECTION -->
+
+<div class="section">
+
+<h2>AI Usage</h2>
+
+<div class="about-box">
+
+<p>
+
+Explain:
+- How AI helped you
+- Example prompts
+- What AI could/couldn't do
+- How you still understood the code yourself
+
+</p>
+
+</div>
+
+</div>
+
+<!-- REFLECTION -->
+
+<div class="section">
+
+<h2>Reflection & Growth</h2>
+
+<div class="about-box">
+
+<p>
+
+Talk about:
+- What was difficult
+- What you learned
+- What you would improve
+- Future goals
+
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+Spotify Inspired Portfolio © 2026
+
+</footer>
+
+</div>
+
+<script>
+
+/* FADE-IN CARDS */
+
+const cards = document.querySelectorAll('.card');
+
+window.addEventListener('scroll', ()=>{
+
+cards.forEach(card=>{
+
+const cardTop = card.getBoundingClientRect().top;
+
+if(cardTop < window.innerHeight - 100){
+    card.classList.add('show');
+}
+
+});
+
+});
+
+/* BUTTON INTERACTION */
+
+const buttons = document.querySelectorAll('.btn');
+
+buttons.forEach(btn=>{
+
+btn.addEventListener('mouseenter', ()=>{
+
+btn.style.boxShadow = '0 0 20px rgba(29,185,84,.6)';
+
+});
+
+btn.addEventListener('mouseleave', ()=>{
+
+btn.style.boxShadow = 'none';
+
+});
+
+});
+
+/* SEARCH BAR */
+
+const search = document.querySelector('.search');
+
+search.addEventListener('keypress', function(e){
+
+if(e.key === 'Enter'){
+    alert('You can make this search functional later with JavaScript or JSON!');
+}
+
+});
+
+</script>
+
+</body>
+</html>
