@@ -107,10 +107,10 @@ body{
     margin-bottom:15px;
 }
 
-.hero-text p{
+.hero-content p{
     color:#d1d1d1;
     line-height:1.8;
-    max-width:700px;
+    max-width:1000px;
 }
 
 .btns{
@@ -199,6 +199,7 @@ body{
 .card p{
     color:#b3b3b3;
     line-height:1.6;
+    max-width: 700px;
 }
 
 /* ABOUT */
@@ -258,32 +259,29 @@ footer{
 
 }
 
-.spotify-nav{
-    display:flex;
-    gap:12px;
-    margin:30px 0 40px 0;
-    flex-wrap:wrap;
+.spotify-nav {
+    display: flex;
+    gap: 10px;
 }
 
-.nav-pill{
-    border:none;
-    padding:10px 18px;
-    border-radius:999px;
-    background:#232323;
-    color:white;
-    font-weight:600;
-    cursor:pointer;
-    transition:.3s;
+.nav-pill {
+    text-decoration: none;
+    background: #2a2a2a;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease;
 }
 
-.nav-pill:hover{
-    background:#353535;
-    transform:scale(1.05);
+.nav-pill:hover {
+    background: #3a3a3a;
 }
 
-.nav-pill.active{
-    background:white;
-    color:black;
+.nav-pill.active {
+    background: white;
+    color: black;
 }
 
 .hero{
@@ -411,4 +409,68 @@ footer{
 
 .save-btn:hover{
     background:#2a2a2a;
+}
+
+/* Hero Styling (Featured)*/
+.hero{
+    padding:40px;
+    border-radius:20px;
+    min-height:420px;
+    background:linear-gradient(180deg,#1e5c46 0%,#1a1a1a 60%,#121212 100%);
+    margin-bottom:30px;
+    animation:fadeIn 1.2s ease;
+}
+
+.hero-content{
+    width:100%;
+}
+
+#greeting{
+    font-size:3rem;
+    font-weight:800;
+    margin-bottom:25px;
+}
+
+/* GRID */
+.featured-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+
+/* CARD */
+.featured-card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    height:110px;
+    padding:14px 16px;
+    border-radius:14px;
+    background:rgba(255,255,255,.08);
+    text-decoration:none;
+    color:white;
+    overflow:hidden;
+    transition:.3s ease;
+}
+
+.featured-card:hover{
+    background:rgba(255,255,255,.15);
+    transform:scale(1.03);
+}
+
+/* IMAGE */
+.featured-card img{
+    width:95px;
+    height:95px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* TEXT */
+.featured-card span{
+    font-size:1rem;
+    font-weight:600;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
