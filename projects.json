@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Tribute Page",
+    "image": "imgs/year1proj1.png",
+    "description": "A tribute website inspired by Cartier using HTML and CSS.",
+    "link": "https://replit.com/@ShailiPatel5/Tribute-Page-Cartier"
+  },
+
+  {
+    "title": "Drake Album",
+    "image": "imgs/year1proj2.png",
+    "description": "A music-themed webpage inspired by Drake albums and Spotify layouts.",
+    "link": "https://e1bef917-563c-46b0-97b1-822767e1d5e1-00-2dlvwuyfil9fa.spock.replit.dev/"
+  },
+
+  {
+    "title": "Cafe Website",
+    "image": "imgs/year1proj3.png",
+    "description": "A responsive cafe website with modern styling and layout design.",
+    "link": "https://187a3d66-c8ff-47df-9fc4-520fe38a04f6-00-1ez5hhfctxsdd.kirk.replit.dev/"
+  },
+
+  {
+    "title": "Vacation Destination",
+    "image": "imgs/year1proj4.png",
+    "description": "A travel-themed webpage promoting vacation destinations.",
+    "link": "https://c7ba39a1-9506-4b61-aeda-1611c37ab74a-00-xwvkx6pie6lw.kirk.replit.dev/"
+  },
+
+  {
+    "title": "Falling Leaves",
+    "image": "imgs/year1proj5.png",
+    "description": "An animation project using JavaScript and CSS effects.",
+    "link": "https://www.youtube.com/watch?v=FAF6iy2eUyw"
+  },
+
+  {
+    "title": "Farmers Market",
+    "image": "imgs/year1proj6.png",
+    "description": "An interactive hover animation project using CSS transitions.",
+    "link": "https://5ec066af-39f5-42e0-aad0-a8b3d3fced6f-00-1wedjhq0ze47c.worf.replit.dev/"
+  },
+  {
+    "title": "Color Hovers",
+    "image": "imgs/year1proj7.png",
+    "description": "An interactive hover animation project using CSS transitions.",
+    "link": "https://5ec066af-39f5-42e0-aad0-a8b3d3fced6f-00-1wedjhq0ze47c.worf.replit.dev/"
+  },
+  {
+    "title": "Cancer Center",
+    "image": "imgs/year1proj8.png",
+    "description": "A website dedicated to providing information and support for cancer patients.",
+    "link": "https://5ec066af-39f5-42e0-aad0-a8b3d3fced6f-00-1wedjhq0ze47c.worf.replit.dev/"
+  }
+]
