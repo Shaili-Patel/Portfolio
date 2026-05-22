@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Matrix Hangman",
+    "image": "imgs/year2proj1.png",
+    "description": "A hangman game inspired by The Matrix movie, featuring a green code rain background and a futuristic design.",
+    "link": "https://shaili-patel.github.io/Hangman/"
+  },
+
+  {
+    "title": "Coco Chanel Tribute",
+    "image": "imgs/year2proj2.png",
+    "description": "A tribute website inspired by Coco Chanel and her story.",
+    "link": "https://shaili-patel.github.io/LookMaImFamous/"
+  },
+
+  {
+    "title": "Bridgerton MadLibs",
+    "image": "imgs/year2proj3.png",
+    "description": "A Bridgerton-themed MadLibs game where users can fill in the blanks to create their own Bridgerton story/invitation.",
+    "link": "https://shaili-patel.github.io/Mad-Libs-Website/"
+  },
+
+  {
+    "title": "Magic 8 Ball",
+    "image": "imgs/year2proj4.png",
+    "description": "A website that simulates a Magic 8 Ball, allowing users to ask questions and receive random answers.",
+    "link": "https://shaili-patel.github.io/Magic-8-Ball/"
+  },
+
+  {
+    "title": "Monthly Website Gallery",
+    "image": "imgs/year2proj5.png",
+    "description": "A website made to showcase the projects I have made each month in my web design class.",
+    "link": "https://shaili-patel.github.io/MonthlyWebsiteGallery/"
+  },
+
+  {
+    "title": "Name Generator",
+    "image": "imgs/year2proj6.png",
+    "description": "A website that generates random names based on user inputs.",
+    "link": "https://shaili-patel.github.io/Name-Generator/"
+  },
+  {
+    "title": "NY Kincks",
+    "image": "imgs/year2proj7.png",
+    "description": "A website dedicated to the New York Knicks, featuring team history, player profiles, and latest news.",
+    "link": "https://shaili-patel.github.io/NYKnicks/"
+  },
+  {
+    "title": "Postcard Generator",
+    "image": "imgs/year2proj8.png",
+    "description": "A page that allows users to create and customize their select postcards with different backgrounds and styles.",
+    "link": "https://shaili-patel.github.io/Postcard-Generator/"
+  },
+  {
+    "title": "President Website",
+    "image": "imgs/year2proj9.png",
+    "description": "A website showcasing the life and achievements of Abraham Lincoln, featuring sections on his early life, political career, and legacy.",
+    "link": "https://shaili-patel.github.io/President-Website/"
+  },
+  {
+   "title": "Random Testimonial",
+    "image": "imgs/year2proj10.png",
+    "description": "A template website that was built through tutorials.",
+    "link": "https://shaili-patel.github.io/Random-Testimonial/"
+  },
+  {
+    "title": "Rock, Paper, Scissors",
+    "image": "imgs/year2proj11.png",
+    "description": "A game style website that allows users to play rock, paper, scissors against the computer.",
+    "link": "https://shaili-patel.github.io/Rock-Paper-Scissors/"
+  },
+  {
+    "title": "CSS Ghost Animation",
+    "image": "imgs/year2proj12.png",
+    "description": "A template css ghost that was custom designed and animated individually.",
+    "link": "https://shaili-patel.github.io/Spooky-Ghost-Animation/"
+  },
+  {
+    "title": "CSS Spider Animation",
+    "image": "imgs/year2proj13.png",
+    "description": "A template css spider that was custom designed and animated individually.",
+    "link": "https://shaili-patel.github.io/Spooky-Spider-Animation/"
+  },
+  {
+    "title": "State Facts",
+    "image": "imgs/year2proj14.png",
+    "description": "A tutorial website that provides facts about different states in the US, including population andcapital city.",
+    "link": "https://shaili-patel.github.io/State-Facts-Objects-Practice/"
+  },
+  {
+    "title": "Italy Summer Tainment",
+    "image": "imgs/year2proj15.png",
+    "description": "A website that depicts the attractions of Italy, including popular tourist destinations, traditional cuisine, and cultural events.",
+    "link": "https://shaili-patel.github.io/Summer-Tainment-Site/"
+  },
+  {
+    "title": "To-Do List",
+    "image": "imgs/year2proj16.png",
+    "description": "A simple to-do list website that allows users to add, complete, and delete tasks.",
+    "link": "https://shaili-patel.github.io/To-Do-List/"
+  },
+  {
+    "title": "Wildcard Website",
+    "image": "imgs/year2proj17.png",
+    "description": "We were told to make an interactive website of our choice, so I made a website that features a game where users can play a game of murder mystery.",
+    "link": "https://shaili-patel.github.io/Wildcard-Website/game.html"
+  }
+]

@@ -285,17 +285,13 @@ footer{
 }
 
 .hero{
-    display:flex;
-    align-items:end;
-    gap:35px;
-
-    padding:40px;
-
-    min-height:420px;
-
-    background:linear-gradient(to bottom,#1e5c46,#121212);
+    padding:28px;
 
     border-radius:20px;
+
+    min-height:260px;
+
+    background:linear-gradient(180deg,#1e5c46 0%,#1a1a1a 60%,#121212 100%);
 
     margin-bottom:30px;
 
@@ -434,23 +430,93 @@ footer{
 /* GRID */
 .featured-grid{
     display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap:20px;
+    grid-template-columns:repeat(3, 260px);
+
+    justify-content:center;
+
+    gap:32px;
 }
 
-/* CARD */
+/* FEATURED CARD */
+
 .featured-card{
     display:flex;
+    flex-direction:column;
+
     align-items:center;
-    gap:18px;
-    height:110px;
-    padding:14px 16px;
-    border-radius:14px;
+    justify-content:flex-start;
+
+    height:340px;   /* fits 195px image + text + button */
+
+    padding:18px;
+
+    border-radius:16px;
+
     background:rgba(255,255,255,.08);
+
     text-decoration:none;
     color:white;
-    overflow:hidden;
-    transition:.3s ease;
+
+    transition:.25s ease;
+
+    text-align:center;
+}
+
+.featured-card:hover{
+    transform:translateY(-6px);
+    background:rgba(255,255,255,.14);
+}
+
+/* LEFT SIDE */
+
+.featured-info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    gap:10px;
+
+    margin-top:8px;
+}
+
+.featured-info span{
+    font-size:1rem;
+    font-weight:700;
+}
+
+/* IMAGE */
+.featured-card img{
+    width:195px;
+    height:195px;
+
+    object-fit:cover;
+
+    border-radius:14px;
+
+    margin-bottom:14px;
+}
+
+/* BUTTON */
+
+.details-btn{
+    margin-top:auto;
+
+    background:#1DB954;
+    color:black;
+
+    padding:7px 14px;
+
+    border-radius:999px;
+
+    font-size:12px;
+    font-weight:700;
+
+    transition:.2s ease;
+}
+
+.featured-card:hover .details-btn{
+    background:#1ed760;
+    transform:scale(1.05);
 }
 
 .featured-card:hover{
@@ -460,8 +526,8 @@ footer{
 
 /* IMAGE */
 .featured-card img{
-    width:95px;
-    height:95px;
+    width:195px;
+    height:195px;
     object-fit:cover;
     border-radius:10px;
 }
