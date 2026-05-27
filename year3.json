@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Client Website",
+    "image": "imgs/year3proj1.png",
+    "description": "A website designed for a client, featuring a clean and modern design with responsive layout and interactive elements.",
+    "link": "https://shaili-patel.github.io/Client-Website/"
+  },
+
+  {
+    "title": "College Recruitment Website",
+    "image": "imgs/year3proj2.png",
+    "description": "A website designed to recruit students to a college, featuring information about programs, admission requirements, and campus life in NYU.",
+    "link": "https://shaili-patel.github.io/College-Recruitment-Website/"
+  },
+
+  {
+    "title": "Movie Poster",
+    "image": "imgs/year3proj3.png",
+    "description": "A website showcasing movie posters with interactive elements and responsive design.",
+    "link": "https://shaili-patel.github.io/Movie-Poster/"
+  },
+
+  {
+    "title": "Bucket List Destinations",
+    "image": "imgs/year3proj4.png",
+    "description": "A website showcasing bucket list travel destinations with interactive elements and responsive cohesive design.",
+    "link": "https://shaili-patel.github.io/Project-1/"
+  },
+
+  {
+    "title": "Focus Flow",
+    "image": "imgs/year3proj5.png",
+    "description": "A website with 3 people featuring a timer, calendar, and to-do list to help users stay focused and organized.",
+    "link": "https://526aschwartz.github.io/studyingHelp/"
+  },
+
+  {
+    "title": "Tutorial Website: Vue Mastery",
+    "image": "imgs/year3proj6.png",
+    "description": "A website that provides tutorials and guides for various topics, specifically vue.",
+    "link": "https://shaili-patel.github.io/Vue-Mastery-Tutorial/"
+  },
+  {
+    "title": "NY Kincks",
+    "image": "imgs/year3proj7.png",
+    "description": "A website dedicated to the New York Knicks, featuring team history, player profiles, and latest news.",
+    "link": "https://shaili-patel.github.io/NYKnicks/"
+  }
+  
+]
