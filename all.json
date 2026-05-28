@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Tribute Page",
+    "image": "imgs/year1proj1.png",
+    "description": "A tribute website inspired by Cartier using HTML and CSS.",
+    "link": "https://replit.com/@ShailiPatel5/Tribute-Page-Cartier"
+  },
+
+  {
+    "title": "Drake Album",
+    "image": "imgs/year1proj2.png",
+    "description": "A music-themed webpage inspired by Drake albums and Spotify layouts.",
+    "link": "https://e1bef917-563c-46b0-97b1-822767e1d5e1-00-2dlvwuyfil9fa.spock.replit.dev/"
+  },
+
+  {
+    "title": "Cafe Website",
+    "image": "imgs/year1proj3.png",
+    "description": "A responsive cafe website with modern styling and layout design.",
+    "link": "https://187a3d66-c8ff-47df-9fc4-520fe38a04f6-00-1ez5hhfctxsdd.kirk.replit.dev/"
+  },
+
+  {
+    "title": "Vacation Destination",
+    "image": "imgs/year1proj4.png",
+    "description": "A travel-themed webpage promoting vacation destinations.",
+    "link": "https://c7ba39a1-9506-4b61-aeda-1611c37ab74a-00-xwvkx6pie6lw.kirk.replit.dev/"
+  },
+
+  {
+    "title": "Falling Leaves",
+    "image": "imgs/year1proj5.png",
+    "description": "An animation project using JavaScript and CSS effects.",
+    "link": "https://www.youtube.com/watch?v=FAF6iy2eUyw"
+  },
+
+  {
+    "title": "Farmers Market",
+    "image": "imgs/year1proj6.png",
+    "description": "An interactive hover animation project using CSS transitions.",
+    "link": "https://5ec066af-39f5-42e0-aad0-a8b3d3fced6f-00-1wedjhq0ze47c.worf.replit.dev/"
+  },
+  {
+    "title": "Color Hovers",
+    "image": "imgs/year1proj7.png",
+    "description": "An interactive hover animation project using CSS transitions.",
+    "link": "https://5ec066af-39f5-42e0-aad0-a8b3d3fced6f-00-1wedjhq0ze47c.worf.replit.dev/"
+  },
+  {
+    "title": "Cancer Center",
+    "image": "imgs/year1proj8.png",
+    "description": "A website dedicated to providing information and support for cancer patients.",
+    "link": "https://5ec066af-39f5-42e0-aad0-a8b3d3fced6f-00-1wedjhq0ze47c.worf.replit.dev/"
+  },
+  {
+    "title": "Matrix Hangman",
+    "image": "imgs/year2proj1.png",
+    "description": "A hangman game inspired by The Matrix movie, featuring a green code rain background and a futuristic design.",
+    "link": "https://shaili-patel.github.io/Hangman/"
+  },
+
+  {
+    "title": "Coco Chanel Tribute",
+    "image": "imgs/year2proj2.png",
+    "description": "A tribute website inspired by Coco Chanel and her story.",
+    "link": "https://shaili-patel.github.io/LookMaImFamous/"
+  },
+
+  {
+    "title": "Bridgerton MadLibs",
+    "image": "imgs/year2proj3.png",
+    "description": "A Bridgerton-themed MadLibs game where users can fill in the blanks to create their own Bridgerton story/invitation.",
+    "link": "https://shaili-patel.github.io/Mad-Libs-Website/"
+  },
+
+  {
+    "title": "Magic 8 Ball",
+    "image": "imgs/year2proj4.png",
+    "description": "A website that simulates a Magic 8 Ball, allowing users to ask questions and receive random answers.",
+    "link": "https://shaili-patel.github.io/Magic-8-Ball/"
+  },
+
+  {
+    "title": "Monthly Website Gallery",
+    "image": "imgs/year2proj5.png",
+    "description": "A website made to showcase the projects I have made each month in my web design class.",
+    "link": "https://shaili-patel.github.io/MonthlyWebsiteGallery/"
+  },
+
+  {
+    "title": "Name Generator",
+    "image": "imgs/year2proj6.png",
+    "description": "A website that generates random names based on user inputs.",
+    "link": "https://shaili-patel.github.io/Name-Generator/"
+  },
+  {
+    "title": "NY Kincks",
+    "image": "imgs/year2proj7.png",
+    "description": "A website dedicated to the New York Knicks, featuring team history, player profiles, and latest news.",
+    "link": "https://shaili-patel.github.io/NYKnicks/"
+  },
+  {
+    "title": "Postcard Generator",
+    "image": "imgs/year2proj8.png",
+    "description": "A page that allows users to create and customize their select postcards with different backgrounds and styles.",
+    "link": "https://shaili-patel.github.io/Postcard-Generator/"
+  },
+  {
+    "title": "President Website",
+    "image": "imgs/year2proj9.png",
+    "description": "A website showcasing the life and achievements of Abraham Lincoln, featuring sections on his early life, political career, and legacy.",
+    "link": "https://shaili-patel.github.io/President-Website/"
+  },
+  {
+   "title": "Random Testimonial",
+    "image": "imgs/year2proj10.png",
+    "description": "A template website that was built through tutorials.",
+    "link": "https://shaili-patel.github.io/Random-Testimonial/"
+  },
+  {
+    "title": "Rock, Paper, Scissors",
+    "image": "imgs/year2proj11.png",
+    "description": "A game style website that allows users to play rock, paper, scissors against the computer.",
+    "link": "https://shaili-patel.github.io/Rock-Paper-Scissors/"
+  },
+  {
+    "title": "CSS Ghost Animation",
+    "image": "imgs/year2proj12.png",
+    "description": "A template css ghost that was custom designed and animated individually.",
+    "link": "https://shaili-patel.github.io/Spooky-Ghost-Animation/"
+  },
+  {
+    "title": "CSS Spider Animation",
+    "image": "imgs/year2proj13.png",
+    "description": "A template css spider that was custom designed and animated individually.",
+    "link": "https://shaili-patel.github.io/Spooky-Spider-Animation/"
+  },
+  {
+    "title": "State Facts",
+    "image": "imgs/year2proj14.png",
+    "description": "A tutorial website that provides facts about different states in the US, including population andcapital city.",
+    "link": "https://shaili-patel.github.io/State-Facts-Objects-Practice/"
+  },
+  {
+    "title": "Italy Summer Tainment",
+    "image": "imgs/year2proj15.png",
+    "description": "A website that depicts the attractions of Italy, including popular tourist destinations, traditional cuisine, and cultural events.",
+    "link": "https://shaili-patel.github.io/Summer-Tainment-Site/"
+  },
+  {
+    "title": "To-Do List",
+    "image": "imgs/year2proj16.png",
+    "description": "A simple to-do list website that allows users to add, complete, and delete tasks.",
+    "link": "https://shaili-patel.github.io/To-Do-List/"
+  },
+  {
+    "title": "Wildcard Website",
+    "image": "imgs/year2proj17.png",
+    "description": "We were told to make an interactive website of our choice, so I made a website that features a game where users can play a game of murder mystery.",
+    "link": "https://shaili-patel.github.io/Wildcard-Website/game.html"
+  },
+  {
+    "title": "Client Website",
+    "image": "imgs/year3proj1.png",
+    "description": "A website designed for a client, featuring a clean and modern design with responsive layout and interactive elements.",
+    "link": "https://shaili-patel.github.io/Client-Website/"
+  },
+
+  {
+    "title": "College Recruitment Website",
+    "image": "imgs/year3proj2.png",
+    "description": "A website designed to recruit students to a college, featuring information about programs, admission requirements, and campus life in NYU.",
+    "link": "https://shaili-patel.github.io/College-Recruitment-Website/"
+  },
+
+  {
+    "title": "Movie Poster",
+    "image": "imgs/year3proj3.png",
+    "description": "A website showcasing movie posters with interactive elements and responsive design.",
+    "link": "https://shaili-patel.github.io/Movie-Poster/"
+  },
+
+  {
+    "title": "Bucket List Destinations",
+    "image": "imgs/year3proj4.png",
+    "description": "A website showcasing bucket list travel destinations with interactive elements and responsive cohesive design.",
+    "link": "https://shaili-patel.github.io/Project-1/"
+  },
+
+  {
+    "title": "Focus Flow",
+    "image": "imgs/year3proj5.png",
+    "description": "A website with 3 people featuring a timer, calendar, and to-do list to help users stay focused and organized.",
+    "link": "https://526aschwartz.github.io/studyingHelp/"
+  },
+
+  {
+    "title": "Tutorial Website: Vue Mastery",
+    "image": "imgs/year3proj6.png",
+    "description": "A website that provides tutorials and guides for various topics, specifically vue.",
+    "link": "https://shaili-patel.github.io/Vue-Mastery-Tutorial/"
+  },
+  {
+    "title": "NY Kincks",
+    "image": "imgs/year3proj7.png",
+    "description": "A website dedicated to the New York Knicks, featuring team history, player profiles, and latest news.",
+    "link": "https://shaili-patel.github.io/NYKnicks/"
+  }
+  
+]

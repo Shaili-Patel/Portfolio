@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 <title>Senior Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
@@ -16,13 +19,16 @@
 
 <div class="sidebar">
 
-<div class="logo">My Portfolio</div>
+    <div class="logo">My Portfolio</div>
 
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <!-- SCROLLS TO PROJECTS SECTION -->
+        <li><a href="index.html#projects">Projects</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 
 </div>
 
@@ -30,229 +36,155 @@
 
 <div class="main">
 
-<div class="topbar">
+    <!-- TOPBAR -->
 
-<input type="text" class="search" placeholder="Search portfolio...">
+    <div class="topbar">
 
-</div>
+        <input type="text" class="search" placeholder="Search portfolio...">
 
-<section class="hero">
+    </div>
 
-  <img src="imgs/port.jpg" class="album-cover">
+    <!-- HERO -->
 
-    <div class="hero-content">
+    <section class="hero">
 
-        <p class="album-type">Portfolio</p>
+        <img src="imgs/port.jpg" class="album-cover">
 
-        <h1>Shaili Patel</h1>
+        <div class="hero-content">
 
-        <h3>Frontend Developer • UI Designer • Student</h3>
+            <p class="album-type">Portfolio</p>
 
-        <p class="hero-description">Hi! My name is Shaili Patel and I am a senior at Marlboro High School. I have been in the 
-            Web Design Pathway Program for 3 years, and this is my portfolio representing all the work I have done over my years in the program, enjoy!</p>
+            <h1>Shaili Patel</h1>
 
-        <div class="hero-buttons">
+            <h3>Frontend Developer • UI Designer • Student</h3>
 
-            <button class="play-btn">View Projects</button>
+            <p class="hero-description">
+                Hi! My name is Shaili Patel and I am a senior at Marlboro High School.
+                I have been in the Web Design Pathway Program for 3 years,
+                and this portfolio represents all the work I have created
+                throughout my time in the program.
+            </p>
 
-            <button class="save-btn">Contact</button>
+            <div class="hero-buttons">
+
+                <!-- SCROLL TO PROJECTS -->
+                <a href="#projects">
+                    <button class="play-btn">View Projects</button>
+                </a>
+
+                <!-- CONTACT PAGE -->
+                <a href="contact.html">
+                    <button class="save-btn">Contact</button>
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- YEAR NAV -->
 
-<div class="spotify-nav">
-    <a href="index.html" class="nav-pill active">All</a>
-    <a href="year1.html" class="nav-pill">Year 1</a>
-    <a href="year2.html" class="nav-pill">Year 2</a>
-    <a href="year3.html" class="nav-pill">Year 3</a>
-</div>
+    <div class="spotify-nav">
 
-<!-- POPULAR ARTISTS -->
+        <a href="index.html" class="nav-pill active">All</a>
 
-<section class="popular-section">
+        <a href="year1.html" class="nav-pill">Year 1</a>
 
-    <div class="section-header">
+        <a href="year2.html" class="nav-pill">Year 2</a>
 
-        <h2>Popular Artists</h2>
-
-        <a href="#">Show all</a>
+        <a href="year3.html" class="nav-pill">Year 3</a>
 
     </div>
 
-    <div class="artist-row">
+    <!-- POPULAR ARTISTS -->
 
-        <!-- ITEM 1 -->
-        <div class="artist-card">
+    <section class="popular-section">
 
-            <img src="imgs/cartier daily mix.png">
-              <div class="play-hover">
-        ▶
-    </div>
+        <div class="section-header">
 
-            <h3>Yasmina Nigmanova</h3>
+            <h2>Popular Artists</h2>
 
-            <p>HTML/CSS</p>
+            <a href="#">Show all</a>
 
         </div>
 
-        <!-- ITEM 2 -->
-        <div class="artist-card">
+        <div class="artist-row">
 
-            <img src="imgs/drake daily mix.png">
+            <!-- ITEM 1 -->
 
-              <div class="play-hover">
-        ▶
-    </div>
+            <div class="artist-card">
 
-            <h3>Alyson Schwartz</h3>
+                <img src="imgs/cartier daily mix.png">
 
-            <p>Responsive Design</p>
+                <div class="play-hover">
+                    ▶
+                </div>
+
+                <h3>Yasmina Nigmanova</h3>
+
+                <p>HTML/CSS</p>
+
+            </div>
+
+            <!-- ITEM 2 -->
+
+            <div class="artist-card">
+
+                <img src="imgs/drake daily mix.png">
+
+                <div class="play-hover">
+                    ▶
+                </div>
+
+                <h3>Alyson Schwartz</h3>
+
+                <p>Responsive Design</p>
+
+            </div>
+
+            <!-- ITEM 3 -->
+
+            <div class="artist-card">
+
+                <img src="imgs/coral daily mix.png">
+
+                <div class="play-hover">
+                    ▶
+                </div>
+
+                <h3>Shaili Patel</h3>
+
+                <p>Frontend Project</p>
+
+            </div>
 
         </div>
 
-        <!-- ITEM 3 -->
-        <div class="artist-card">
+    </section>
 
-            <img src="imgs/coral daily mix.png">
+    <!-- PROJECTS SECTION -->
 
-              <div class="play-hover">
-        ▶
+    <div class="section" id="projects">
+
+        <h2>All Projects</h2>
+
+        <div class="cards" id="project-container"></div>
+
     </div>
 
-            <h3>Shaili Patel</h3>
+    <!-- FOOTER -->
 
-            <p>Frontend Project</p>
+    <footer>
 
-        </div>
-</section>
+        Spotify Inspired Portfolio © 2026
 
-<!-- PROJECTS -->
-
-<div class="section">
-
-<h2>Featured Projects</h2>
-
-<div class="cards">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
-
-<h3>Project One</h3>
-
-<p>
-Describe your project here.
-Explain the technologies used and why it is important.
-</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop">
-
-<h3>Project Two</h3>
-
-<p>
-Explain your growth from Year 1 to Year 3.
-</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
-
-<h3>Capstone Project</h3>
-
-<p>
-Talk about challenges, design process, and features.
-</p>
-</div>
-
-</div>
-</div>
-
-<!-- DESIGN PROCESS -->
-
-<div class="section">
-
-<h2>Design Process</h2>
-
-<div class="about-box">
-
-<p>
-
-• Explain your lo-fi wireframe here.<br><br>
-
-• Explain your hi-fi wireframe here.<br><br>
-
-• Describe how your design evolved.<br><br>
-
-• Talk about your research and what inspired you.<br><br>
-
-• Mention technologies:
-HTML, CSS, JavaScript, JSON, Vue/jQuery, animations, responsiveness, etc.
-
-</p>
-
-</div>
-
-</div>
-
-<!-- AI SECTION -->
-
-<div class="section">
-
-<h2>AI Usage</h2>
-
-<div class="about-box">
-
-<p>
-
-Explain:
-- How AI helped you
-- Example prompts
-- What AI could/couldn't do
-- How you still understood the code yourself
-
-</p>
-
-</div>
-
-</div>
-
-<!-- REFLECTION -->
-
-<div class="section">
-
-<h2>Reflection & Growth</h2>
-
-<div class="about-box">
-
-<p>
-
-Talk about:
-- What was difficult
-- What you learned
-- What you would improve
-- Future goals
-
-</p>
-
-</div>
-
-</div>
-
-<footer>
-
-Spotify Inspired Portfolio © 2026
-
-</footer>
+    </footer>
 
 </div>
 
 <script src="script.js"></script>
 
-</script>
-
 </body>
+
 </html>
